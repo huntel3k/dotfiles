@@ -224,3 +224,6 @@ client.focused          #c7bcbb #918b8a #FFFFFF #bdabaa   #ad9897
 default_border pixel 3
 
 gaps inner 6
+
+# My binds 
+bindsym Print exec "maim ~/Pictures/$(date +%s).png"
