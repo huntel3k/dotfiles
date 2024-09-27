@@ -6,7 +6,10 @@
 
 This repository contains my dotfiles for Hyprland and i3.
 
-![Hyprland](./hyprland.png) ![i3wm](./i3wm.png)
+# Hyprland
+![Hyprland](./hyprland.png) 
+# i3wm
+![i3wm](./i3wm.png)
 
 
 ## Requirements
@@ -39,5 +42,4 @@ then use GNU stow to create symlinks
 ```
 $ stow .
 ```
-
 
