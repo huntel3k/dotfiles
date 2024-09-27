@@ -6,7 +6,7 @@
 
 window#waybar {
     background-color: transparent;
-    color: #9b59b6;
+    color: #e7d8b1;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -227,6 +227,7 @@ label:focus {
 
 #temperature {
     background-color: #797385;
+    color: #e7d8b1;
 }
 
 #temperature.critical {
@@ -329,4 +330,3 @@ label:focus {
   background-color: #797385;
   color: #e7d8b1;
 }
-

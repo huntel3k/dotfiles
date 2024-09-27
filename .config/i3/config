@@ -201,9 +201,9 @@ bindsym Mod4+r mode "resize"
 #######################################################################
 exec i3-config-wizard
 
-# Changes to correct resolution and sets the wallpaper
+# Changes to correct resolution and sets the wallpaper & with 0.8 scalling
 exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080 --scale 0.8 
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpaperi3.png
+exec --no-startup-id feh --bg-scale ~/dotfiles/wallpapers/wallpaper_i3.png
 
 # Starts Polybar - topbar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
