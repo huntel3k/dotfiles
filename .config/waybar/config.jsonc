@@ -17,7 +17,6 @@
         "hyprland/window"
     ],
     "modules-right": [
-        "mpd",
         "pulseaudio",
         "cpu",
         "memory",
@@ -154,13 +153,13 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
+        "scroll-step": 3, // %, can be a float
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format-source-muted": "  ",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -181,8 +180,8 @@
             "default": "?"
         },
         "escape": true,
-        // "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        "exec": "$HOME/.config/waybar/mediaplayer.py --player yt music 2> /dev/null" // Filter player based on name
+         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        //"exec": "$HOME/.config/waybar/mediaplayer.py --player yt music 2> /dev/null" // Filter player based on name
     },
     "custom/power": {
         "format" : "⏻ ",
