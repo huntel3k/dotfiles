@@ -40,7 +40,3 @@ then use GNU stow to create symlinks
 ```console
 $ stow .
 ```
-
-> [!WARNING]\
-> W.I.P
-
